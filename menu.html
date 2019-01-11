@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <!--
   Name: Erin Green
-  Date Created: xx/xx/xx
-  Most Recent Revision: xx/xx/xx
+  Date Created: 10/28/18
+  Most Recent Revision: 01/06/19
 -->
 <html lang="en">
   <head>
     <title>Menu</title>
 
 <link href="https://fonts.googleapis.com/css?family=Unlock" rel="stylesheet">
-<link href="styles/restaurantStyles.css" rel="stylesheet" type="text/css" />
+
 <style>
 
-caption{
+p {
   font-weight: bold;
   font-size: 1.6em;
   margin-bottom: 8px;
   font-family: 'Unlock', cursive;
+  color: #800000;
 }
 
 th {
@@ -41,6 +42,10 @@ tr {
 
 </style>
 
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+<link href="styles/restaurantStyles.css" rel="stylesheet" type="text/css" />
+
   </head>
 
   <body>
@@ -48,26 +53,36 @@ tr {
     <header>
       <h4>Menu</h4>
     </header>
-<hr />
--->
+<hr /> -->
 <center>
 <img src="images/logo.jpg" width="60%">
 </center>
-<hr />
 
-    <nav>
-      <p>
-        <a href="restaurant.html">Home</a>
-        <a href="menu.html">Menu</a>
-        <a href="contactus.html">Contact Us</a>
-      </p>
-      <hr />
-    </nav>
+<!--option 1 nav pills
+<nav>
+<ul class="nav nav-pills">
+<li class="nav-item">
+<a class="nav-link" data-toggle="pill" href="restaurant.html">Home <span class="glyphicon glyphicon-home"></span></a>
+</li>
+<li class="nav-item">
+<a class="nav-link active" data-toggle="pill" href="menu.html">Menu</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" data-toggle="pill" href="contactus.html">Contact Us</a>
+</li>
+</ul>
+</nav>
+-->
 
-<p>
+<!--nav pills-->
+<nav>
+    <a class="btn-inactive" href="restaurant.html">Home</a>
+    <a class="btn badge-pill" href="menu.html">Menu</a>
+    <a class ="btn-inactive" href="contactus.html">Contact Us</a>
+</nav>
 
+<p align="center">Menu</p>
 <table width="90%">
-  <caption>Menu</caption>
     <tr>
     <th>Grilled Eggplant Parmesan Nachos- GF, V </th>
     <th>Spinach Artichoke Dip Nachos- GF, V </th>
@@ -102,7 +117,7 @@ tr {
 
 
 <table width="40%">
-    <caption>Beverages </caption>
+    <p align="center">Beverages</p>
   <tr>
     <td>Soda</td>
     <td>$2.50</td>
@@ -120,12 +135,11 @@ tr {
    <td>$2.00</td>
   </tr>
 </table>
-</p>
 
     <center>
         <footer>
-          <p>804 Green Avenue, Minneapolis, MN 55410</p>
-          <p>612-555-8044</p>
+          <p2>804 Green Avenue, Minneapolis, MN 55410</p>
+          <p2>612-555-8044</p>
         </footer>
     </center>
 

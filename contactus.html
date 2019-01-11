@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <!--
   Name: Erin Green
-  Date Created: xx/xx/xx
-  Most Recent Revision: xx/xx/xx
+  Date Created: 11/03/18
+  Most Recent Revision: 01/06/19
 -->
 <html lang="en">
   <head>
     <title>Contact Us</title>
 
+<link href="https://fonts.googleapis.com/css?family=Unlock" rel="stylesheet">
 <link href="styles/restaurantStyles.css" rel="stylesheet" type="text/css" />
 
 <style>
@@ -23,7 +24,11 @@ label {
 
 </style>
 
-  </head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+<link href="styles/restaurantStyles.css" rel="stylesheet" type="text/css" />
+
+</head>
 
   <body>
     <header>
@@ -33,19 +38,35 @@ label {
     <hr />
 
     <center>
-    <img src="images/logo.jpg" width="40%">
+    <img src="images/logo.jpg" width="60%">
     </center>
-    <hr />
+
+
+<!--option 1 pill button:
+    <nav>
+    <ul class="nav nav-pills">
+    <li class="nav-item">
+    <a class="nav-link" data-toggle="pill" href="restaurant.html">Home <span class="glyphicon glyphicon-home"></span></a>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link" data-toggle="pill" href="menu.html">Menu</a>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link active" data-toggle="pill" href="contactus.html">Contact Us</a>
+    </li>
+    </ul>
+  </nav>
+-->
 
 
     <nav>
-      <p>
-        <a href="restaurant.html">Home</a>
-        <a href="menu.html">Menu</a>
-        <a href="contactus.html">Contact Us</a>
-      </p>
-      <hr />
+
+        <a class="btn-inactive" href="restaurant.html">Home</a>
+        <a class="btn-inactive" href="menu.html">Menu</a>
+        <a class="btn badge-pill" href="contactus.html">Contact Us</a>
+
     </nav>
+
 
 <center>
 
