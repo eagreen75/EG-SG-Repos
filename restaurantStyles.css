@@ -31,6 +31,10 @@ a {
 }
 
 
+a:visited {
+  color: orange;
+}
+
 nav .btn {
     background-color: #FF6347;
     color: #fef9ff;
