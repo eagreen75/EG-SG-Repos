@@ -2,16 +2,24 @@
 <!--
   Name: Erin Green
   Date Created: 10/28/18
-  Most Recent Revision: 01/11/19
+  Most Recent Revision: 01/13/19
 -->
+
+
+
 <html lang="en">
 <main>
   <head>
     <title>Mundo Nacho</title>
 
+
+
+<!--link for "Unlock" font family-->
 <link href="https://fonts.googleapis.com/css?family=Unlock" rel="stylesheet">
 
 
+
+<!--internal style sheet css-->
 <style>
 
 footer {
@@ -28,18 +36,26 @@ h4{
 
 </style>
 
+
+
+<!--bootstrap css-->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
+<!--external css sheet-->
 <link href="styles/restaurantStyles.css" rel="stylesheet" type="text/css" />
 
 
 </head>
 
+
+
 <body>
 
+<!--jumbotron-->
   <header class="jumbotron">
       <h1>We are opening a new location!</h1>
   </header>
+
 
   <header>
       <h4>El Restaurante</h4>
@@ -47,29 +63,14 @@ h4{
   </header>
 
 
-  <!-- Nav pills
-  option 1 - this does not work on the home page, but works on the other two pages:
-<nav>
-  <ul class="nav nav-pills">
-  <li class="nav-item">
-  <a class="nav-link active" data-toggle="pill" href="restaurant.html">Home <span class="glyphicon glyphicon-home"></span></a>
-  </li>
-  <li class="nav-item">
-  <a class="nav-link" data-toggle="pill" href="menu.html">Menu</a>
-  </li>
-  <li class="nav-item">
-  <a class="nav-link" data-toggle="pill" href="contactus.html">Contact Us</a>
-  </li>
-  </ul>
-</nav>
--->
-
-<!--nav pills option 2. Why isn't my home icon working?-->
+<!--Pills. Why isn't my home icon working?-->
   <nav>
         <a class="btn badge-pill" href="restaurant.html">Home <span class="glyphicon glyphicon-home"></span></a>
         <a class="btn-inactive" href="menu.html">Menu</a>
         <a class ="btn-inactive" href="contactus.html">Contact Us</a>
   </nav>
+
+
 
 <!--main page content here-->
 <center>
@@ -78,19 +79,19 @@ h4{
  <p style="width:50%;" align="left">The goal of the Mundo Nacho team is to create a unique nacho experience for our customers that encompasses unusual, but delicious combinations. Rather than your standard nacho approach, we combine the classic Mexican dish with cuisine from around the world. We also strive to be inclusive of those with dietary restrictions and provide many gluten-free, nut-free, dairy-free, and vegetarian options. </p>
 
 
+
 <!--Carousels begin-->
  <section id="updates" class="py-5">
  <div id="slider" class="carousel slide" date-ride="carousel">
  <div class="carousel-inner">
 
-
 <!-- Carousel 1 -->
  <div class="carousel-item active">
  <div class="container">
  <div class="row">
- <div class="col-lg-10 mx-auto d-flex justify-content-between update-item py-3">
- <div class="updates-text px-5">
- <p class="lead text-muted">We're opening a new location!</p>
+ <div class="col-lg-6 mx-auto py-3">
+ <div class="px-5">
+ <p>We're opening a new location!</p>
  </div>
  </div>
  </div>
@@ -98,14 +99,13 @@ h4{
  </div>
 <!--Carousel 1 end-->
 
-
 <!--Carousel 2-->
  <div class="carousel-item">
  <div class="container">
  <div class="row">
- <div class="col-lg-10 mx-auto d-flex justify-content-between update-item py-3">
- <div class="updates-text px-5">
- <p class="lead text-muted">We're rolling out a seasonal menu with special menu items!</p>
+ <div class="col-lg-6 mx-auto py-3">
+ <div class="px-5">
+ <p>We're rolling out a seasonal menu with special menu items!</p>
  </div>
  </div>
  </div>
@@ -113,21 +113,19 @@ h4{
  </div>
 <!--Carousel 2 end-->
 
-
 <!--Carousel 3-->
  <div class="carousel-item">
  <div class="container">
  <div class="row">
- <div class="col-lg-10 mx-auto d-flex justify-content-between update-item py-3">
- <div class="updates-text px-5">
- <p class="lead text-muted">The Drink of the Month Special is SG Special Brew.</p>
+ <div class="col-lg-6 mx-auto py-3">
+ <div class="px-5">
+ <p>The Drink of the Month Special is SG Special Brew.</p>
  </div>
  </div>
  </div>
  </div>
  </div>
 <!--Carousel 3 end-->
-
 
 <!--Carousel controls-->
  <a href="#slider" class="carousel-control-prev" role=button data-slide="prev">
@@ -137,17 +135,21 @@ h4{
  <a href="#slider" class="carousel-control-next" role=button data-slide="next">
  <span class="carousel-control-next-icon"></span>
  </a>
-<!--End of controls-->
+<!--End of carousel controls-->
 
 </center>
 
-<!--footer with address and phone number. Why is the phone number not within the orange background?-->
+
+
+<!--footer with address and phone number. Why is the phone number not within the orange background color?-->
 <center>
   <footer>
     <p>804 Green Avenue, Minneapolis, MN 55410</p>
     <p>612-555-8044</p>
   </footer>
 </center>
+
+
 
 <!--bootstrap added according to bootstrap website-->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
