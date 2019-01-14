@@ -47,9 +47,21 @@ h4{
 
 </head>
 
+<!--If user has Javascript disabled, the website will not be viewable. All that will appear is a message saying this site needs JS enabled.-->
+<noscript>
+    <style type="text/css">
+        .pagecontainer {display:none;}
+    </style>
+    <div class="noscriptmsg">
+    This site works best with Javascript enabled.
+    </div>
+</noscript>
 
 
+<!--With div class="pagecontainer", none of the following code within the opening and closing div will appear to the user if JS is disabled-->
+<div class="pagecontainer">
 <body>
+
 
 <!--jumbotron-->
   <header class="jumbotron">
@@ -139,8 +151,6 @@ h4{
 
 </center>
 
-
-
 <!--footer with address and phone number. Why is the phone number not within the orange background color?-->
 <center>
   <footer>
@@ -149,6 +159,7 @@ h4{
   </footer>
 </center>
 
+</div>
 
 
 <!--bootstrap added according to bootstrap website-->

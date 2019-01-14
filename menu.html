@@ -58,6 +58,22 @@ tr {
   </head>
 
 
+
+
+  <!--If user has Javascript disabled, the website will not be viewable. All that will appear is a message saying this site needs JS enabled.-->
+  <noscript>
+      <style type="text/css">
+          .pagecontainer {display:none;}
+      </style>
+      <div class="noscriptmsg">
+      This site works best with Javascript enabled.
+      </div>
+  </noscript>
+
+
+  <!--With div class="pagecontainer", none of the following code within the opening and closing div will appear to the user if JS is disabled-->
+  <div class="pagecontainer">
+
   <body>
     <!-- I did not like how the header looked above my own image, so I added a comment around it so it would not appear. If you want me to put this back in for grading purposes I can; I just didn't like the look of it...
     <header>
